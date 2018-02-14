@@ -10,8 +10,8 @@ humandate: "March 7-8, 2018"    # human-readable dates for the workshop (e.g., "
 humantime: "9:00am - 4:30pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-03-07      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-03-08        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Reid Otsuji (Library), TBD"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Reid Otsuji (Library), Sreejith Nair(Medicine)"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Rick McCosh (Medicine), Annelise Sklar (Library), Bia Villas Boas(SIO)"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["rotsuji@ucsd.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: http://pad.software-carpentry.org/2018-03-ucsdswc  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: 42949359691 # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -517,6 +517,7 @@ and our administrator may contact you if we need any extra information.</h4>
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
+<!--
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the Jupyter notebook.
@@ -609,7 +610,7 @@ and our administrator may contact you if we need any extra information.</h4>
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
-
+-->
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
